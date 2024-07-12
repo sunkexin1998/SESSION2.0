@@ -1,0 +1,45 @@
+#"1"代表是标准否定词；"0"代表是类否定词
+#aren't	1
+#arent	1
+#can't	1
+cannot	1
+cant	1
+#couldn't	1
+#couldnt	1
+#don't	1
+#dont	1
+#isn't	1
+#isnt	1
+not	1
+#won't	1
+wont	1
+#wouldn't	1
+#wouldnt	1
+no	1	#否定限定词
+never	1	#否定副词
+seldom	1	#否定副词
+less	1	#否定形容词
+least	1	#否定形容词
+none	1	#否定代词
+nobody	1	#否定代词
+nothing	1	#否定代词
+neither	1	#否定连词
+nor	1	#否定连词
+without	1	#否定介词
+bit	0	#类否定形容词
+little	0	#类否定限定词、代词
+few	0	#类否定限定词
+limited	0	#类否定形容词
+lack	0	#类否定名词、动词
+prevent	0	#类否定动词
+refuse	0	#类否定动词
+avoid	0	#类否定动词
+save	0	#类否定动词
+stop	0	#类否定动词
+protect	0	#类否定动词
+ease	0	#类否定动词
+limit	0	#类否定动词
+reduce	0	#类否定动词
+remove	0	#类否定动词
+against	0	#类否定介词
+before	0	#类否定介词

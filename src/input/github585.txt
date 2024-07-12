@@ -1,0 +1,583 @@
+I removed webdav plugin and tried to do sync up on the repo , I got "Error: No repository found in path, or configured plugin not installed. Use 'syinit' to create one." Maybe it's better to show which plugin is missing and provide user with a command to install it (i.e. sy plugin install webdav --snapshot)
+Could not load an SSH config at work today. Something is wrong with the param parsing.
+oh, forgot to clarify: i'm only talking about this part: ((resizedImage->imageData + resizedImage->widthStep*x)[y]);  so, if i'm using a cv::Mat here instead, i'd write:  resizedImage.at<uchar>(x,y);  and at least get the same resulting landmarks
+This was a sync with master that disabled kafka due to build breakage.
+See this solution. It works without hacking the control. #1513"
+@brandonarbiter I don't believe it's a requirement for pilot because no features required for pilot also requiring emailing users.  As soon as we have a feature that requires emailing things out to people this will become important."
+ Lazy-loading SuSEfirewall2 services - some new services can be added when Yast is already running, and the config has been read already (bnc#872960) Preventing from showing incorrect service name or description if they are coming from TEMPLATE file (bnc#893583) Fixed service file parsing - comments starting with more than one '#' characters were reported as unexpected input (just warning) Test case for SuSEfirewallServices is already there 
+Thanks!
+@NobodysNightmare the given file appears to work for me. I'm not using Windows but I don't think that should matter. Is it possible you are running out of memory on your machine? What if you only render say half the document?"
+Same Problem here :-(
+@masterbee There were delays of keyboard display / resetting so fixed that. Also fixed the colour staying when closing with escape and left. Also added the ability to support more than one menu on a page as it was preventing me from deploying mega menus in the main bar (since the example and the site menu were conflicting with one another). Also moved some of common CSS from the .hbs into the .scss since didn't make sense to repeat it in theme files (since had nothing to do with colours).Still need to add navigate by first letter and such but this helps out a lot."
+ I doubt it has anything to do with either Tilemill or Mapbox-studio.  Thinking about it, you might be right. A pixel width of 0 is absurd, and that's probably coming from Mapnik?  This post (http://sqlbrain.wordpress.com/2009/10/06/avoid-sql-divide-by-zero-errors-by-using-nullif/)Ya I've ended up using NULLIF to work around the divide by zero error. It might screw up the Tilemill data display but I don't use that anyways.seems to indicate that it happens only when no rows are returned. So the lack of error in Tilemill may be because some rows are being returned.That's specific to that situation where if no rows are returned COUNT(*) is 0 so you get a division by zero. In this situation it's a divide by zero regardless of how many rows would otherwise be returned."
+Yes, directly to master would do right now. Thanks very much @decanus"
+Days ago, script return this error message: ERROR Message: cURL error: [60] Peer certificate cannot be authenticated with known CA certificates It's something about api_cert_chain.crt or is about my server? I have the same script in two domains and both began to return the same error. Regards...
+Comments updated
+ The home office of Nanotrasen's day to day affairs, CentCom is a secure and centralized space station at a classified location. Everything about them is thorough and professional, and to date there have been no successful attacks or infiltrations reported to the company newsletter. It comes fully stocked and self-sufficient at all times and is a safe haven for all employees of Nanotrasen's many holdings. There's even an advanced neural programming lab and vast cloning bay to provide excellent and rehabilitative health care for elite Nanotrasen employees!  That's what it said until April 15th, 2014 when Jordie for some reason decided to completely reverse it. Headcanon is far, FAR more important than any "lore" dictated by one person especially when it does a better job of answering certain quirks of gameplay.
+I can work with 3.1.1 in new project?
+Thanks for your contribution, it was merged in ff91acf. Could you close PR please? Because we can't."
+Actually, it returns with the user in an owners key, so I have no way of picking it apart as a user. Should it come back under a users key, since its link from the project is type: 'users'?
+This PR makes tile selection a bit laggy for me, there is a delay between selecting tiles, and them being marked. Otherwise it seems to work fine.
+ Fixed the conflict for generating username if username is modifiable later Separated the function to generate unique increasing value for a field of any model 
+@krystov How many sync folders do you have configured?"
+From: Bot.io (Windows)  Received Command cmd_test from @mduan received. Current queue size: 0Live output at: http://107.22.172.223:8877/ecd55d96edfb2eb/output.txt"
+Plugin fnSetFilteringDelay does not work anymore with DataTables version 1.10 due to changes in the api.Following code does the same what the plugin was supposed to do and works with DataTables 1.0:https://github.com/xmojmr/component.io/blob/0.2.0/js/main.js#L395-L420It would be nice if the fnSetFilteringDelay was working also with 1.0 but there are several questions in the current design that made me to propose just a copy/paste hack instead of pull request. Especially:DataTables has already support for this behavior built-in in the form of function _fnThrottle(fn freq). But it is used only in the server-side processing modethe key searchFn function which is the real handler is not visible to the outside"
+I'm trying to determine if I can upgrade from 0.0.8 to 0.0.9 and a git tag would make it easier to compare.  Thanks!
+Add my domain list
+https://github.com/adlnet/xAPI-SCORM-Profile/blob/master/xapi-scorm-profile.md#objectivesI don't think tracking objectives is so common so there's less of a well worn path here and there's certainly merit to using http://adlnet.gov/expapi/verbs/passed as described in this document.Watershed LRS (http://site.watershedlrs.com/) uses http://adlnet.gov/expapi/verbs/completed and this is the only ADL verb to actually mention objectives in its description. For this reason completed is my preference.easygenerator authoring tool (https://www.easygenerator.com/) uses http://adlnet.gov/expapi/verbs/mastered which also seems to a a reasonable choice though perhaps that should be reserved more for competencies than learning objectives."
+Currently if you type in a invalid value into a double field, it is not saved until it is validated, when you have finished editing, eg. clicked on another cell in the table, or pressed enter, the table checks if the value in the changed cell is valid. Is that what you mean ?
+in cont.xml
+JedisCluster constructor overloaded to include GenericObjectPoolConfig poolConfig as a parameter (poolConfig to be used internally for all JedisPool classes). Made suitable changes in all internal classes as well.
+@Glideh ah thanks for explaining yes 4234 was the "old" port we now have 2375/2376 registered at iana."
+Need to add basic web form to collect user observation data. Please duplicate the UX of: http://labs.arboretum.harvard.edu/treemap/Please see code at:https://github.com/camwebb/treemaphttps://github.com/camwebb/treemap/blob/master/lib/obs.awkThe observations and comments should be stored as a new table in the MySQL db the images stored as files in the file system."
+Too generic
+Ok
+I still seem to get these all the time.
+@MrChrisW Yikes missed the test cases will be doing it. (Could not get the server up on codio though)"
+And there we go, it's green :-)
+nothing was fixed in the updates same error Unknown MySQL server host 'SQL_SERVER' (2)
+Hiperlink and button with class ".btn" position is not consistance My sample code<a class="btn btn-danger" href="#">Danger</a> <button type="submit" class="btn">Submit</button>
+i know where i was doing wrong ,this definitely works ...i was pre filling the config.inc.php and now it works perfectly if i let the dns do its job ...thank you
+Have added a File.exist? check to Riddle's controller, that'll be part of the next gem release.
+you can using sliding panel for this.
+I updated the PR with titles for all exporters (see Issue #126)"
+well, yes, having 2 different messages will improve the quality of the report, that's for sure.
+I'm not sure I agree with this. I see the point you're trying to make but I wouldn't necessarily put it there by default. You can get that kind of information from metadataBuilder, but of course that doesn't end up in the same file. I would rather make the capability optional by introducing something like templateBuilder where you define your own template for specs - I think that would be more universal.
+Looks like this is working OK. Just create the cache directory and everything else is automatic. You can delete the cache directory and anything in it at any time.
+This is fantastic news! Thanks for putting this work in @apaprocki  I can't wait to make solid use of it."
+Looks great! Thanks, @VivienCormier."
+Well, currently making a zip for Cydia is a no-brainer.  We basically just use the entire repo.  What I'm thinking we'll need to do instead is to create separate repos for each theme.  The icons repo will have iPad, iPhone and source icon images.  Then we'll have to have a build script that will compile only the iPad icons into the iPad theme and the iPhone icons into the iPhone theme. If we decide to go the iPad route @dreamnetSome GUI them subfoldersome-iphone-gui-control.pngthe-same-gui-control-but-the-ipad-version.pnginfo.iphone.plistinfo.ipad.plistThen we have the build script rename the plist files depending on which Glasklart theme we're building.  So in BOTH themes both the iPhone and iPad items would be in there but in the iPad version it would have the iPad plists and vice versa."
+Sounds good to me too.
+@sankhesh it's probably worth looking at: pypa/pip#2537@jbeezley I see you commented on the issues related to this link for girder. Any insight? pypa/pip#271"
+Looking good. I'll poke at the Travis issue to see if I re-trigger the builds.
+We would like to be able to queue jobs to be run after a specific point in time. It will be helpful.
+Basic version implemented. Might hit localstorage limits? Dun dun dun.
+Write below contents.  overview install usage 
+(note: this is an automated message, but answering it will reach a real human ) Hi! Thank you for your pull request: your contribution to PrestaShop means a lot to us! We are aware that this PR is still open after all this time, and we want to make sure that your hard work is not forgotten. We are diving back into pull requests, and we want to work with you in order to get your PR to completion: we need your feedback! Could you read this article from the Build devblogAgain thank you very much for this contribution and for your renewed feedback on it!"
+Existing cards should be editable from the card list.
+It is more likely a bug/feature on the kong side: host header can have host:port format from reading this spec in section 14.23: http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.htmlunirest is sending a correct host:port combination in the "443" example above and a working theory is:kong's matching algo does not handle the ":"port part like one would expect.Do you think is is worth mentioning this on the kong issue list?If not changed on the kong side - it would deserve a part in the docs over there ....Thanks for the work around solutions."
+ok, git bisect finally came up with: 2bcac88 is the first bad commitcommit 2bcac88Author: Mike Sheldrake boards@sheldrake.netDate:   Thu Sep 27 05:50:54 2012 -0700Increase scale factor for Clipper::offset
+An after_destroy on the parent to clean up the audits. The fix maybe be as simple adding the :dependent => :delete to auditable in https://github.com/harleyttd/auditable/blob/master/lib/auditable/base.rb"
+LGTM
++1 on removing let for declarations. The arguments for doing so:  It's more concise It's more familiar to Haskellers It's more familiar to CoffeeScripters, even Since there's no variable reassignment, = always does the same thing; as such, let does not reduce ambiguity in Roy's case, it only increases verbosity. 
+import pkg_resources Unhandled Error Traceback (most recent call last): File "/usr/lib/python2.7/dist-packages/twisted/application/app.py", line 642, in run runApp(config) File "/usr/lib/python2.7/dist-packages/twisted/scripts/twistd.py", line 23, in runApp _SomeApplicationRunner(config).run() File "/usr/lib/python2.7/dist-packages/twisted/application/app.py", line 376, in run self.application = self.createOrGetApplication() File "/usr/lib/python2.7/dist-packages/twisted/application/app.py", line 441, in createOrGetApplication application = getApplication(self.config, passphrase) ---  --- File "/usr/lib/python2.7/dist-packages/twisted/application/app.py", line 452, in getApplication application = service.loadApplication(filename, style, passphrase) File "/usr/lib/python2.7/dist-packages/twisted/application/service.py", line 405, in loadApplication application = sob.loadValueFromFile(filename, 'application', passphrase) File "/usr/lib/python2.7/dist-packages/twisted/persisted/sob.py", line 210, in loadValueFromFile exec fileObj in d, d File "/home/coin/dash/stratum-mining/launcher.tac", line 21, in  import mining File "/home/coin/dash/stratum-mining/mining/init.py", line 1, in  from service import MiningService File "/home/coin/dash/stratum-mining/mining/service.py", line 7, in  from interfaces import Interfaces File "/home/coin/dash/stratum-mining/mining/interfaces.py", line 8, in  from lib.util import b58encode File "/home/coin/dash/stratum-mining/lib/util.py", line 7, in  import bitcoin_rpc exceptions.IndentationError: expected an indented block (bitcoin_rpc.py, line 151) Failed to load application: expected an indented block (bitcoin_rpc.py, line 151) need help)
+Only reloading the widget instead of the whole page is a good improvement for the user experience. To be able to pass the JSON to the application is a must for the use of the waveformjs library.
+Your effect was always broken on any GPU that didn't do 32-bit per channel floating point textures. For less capable cards the component not only supported R32G32B32A32F but also R10G10B10A2 and R8G8B8A8 integer textures. 0.2.45 removed floating point and 10-bit textures leaving just 8-bit as it's good enough for pretty much any content. Common to both of those is that their range is only positive numbers, interpreted when shading as [0..1] while the floating point texture is [-1..1]. The stock effect has code to fix up this bias and it seems that whoever wrote your effect stripped out the unbias operation. // alpha 1 indicates biased texture float4 minmaxrms = tex1D(sTex, tc.x); minmaxrms.rgb -= 0.5 * minmaxrms.a; minmaxrms.rgb *= 1.0 + minmaxrms.a; 
+Hi, It seems already installed. I've reinstalled it and the same error is returned. Thanks for your time ! Logs : https://gist.github.com/afd5ec31209d980f0c10Message :$ brew install homebrew/python/numpy==> Installing numpy from homebrew/homebrew-pythonWarning: numpy-1.9.0 already installed
+I built the tip and see that the crash with the NULL ptr is avoided, however, the history cache is not generated with valid links (attempting to access the history via the web app gives 404 error file not found). 2015-01-20 15:52:32.282-0800 FINE t25 Executor.exec: Finished command [p4, changes, -t, ...] in directory /local2/mnt/workspace/opengrok/src 2015-01-20 15:52:32.393-0800 FINE t23 FileHistoryCache.store: Storing history for repo /local2/mnt/workspace/opengrok/src 2015-01-20 15:52:32.396-0800 WARNING t23 FileHistoryCache.storeLatestCachedRevision: cannot write latest cached revision to file: null 2015-01-20 15:52:32.396-0800 FINE t23 FileHistoryCache.finishStore: Done storing history for repo /local2/mnt/workspace/opengrok/src 2015-01-20 15:52:32.398-0800 INFO t23 Statistics.report: Done historycache for /local2/mnt/workspace/opengrok/src (took 6.798 seconds) 2015-01-20 15:52:32.410-0800 INFO t23 DefaultIndexChangedListener.fileAdd: Add: /AVS.ADSP.2.6/AVS.ADSP.2.5.plf (PlainAnalyzer) 2015-01-20 15:52:32.414-0800 FINE t23 Executor.exec: Executing command [/pkg/qct/software/p4/p4, files, AVS.ADSP.2.5.plf] in directory /local2/mnt/workspace/opengrok/src/AVS.ADSP.2.6 2015-01-20 15:52:32.428-0800 FINE t26 FileHistoryCache.store: Storing history for repo /local2/mnt/workspace/opengrok/src 2015-01-20 15:52:32.428-0800 FINE t25 FileHistoryCache.store: Storing history for repo /local2/mnt/workspace/opengrok/src 2015-01-20 15:52:32.429-0800 FINE t22 FileHistoryCache.store: Storing history for repo /local2/mnt/workspace/opengrok/src 2015-01-20 15:52:32.432-0800 WARNING t26 FileHistoryCache.storeLatestCachedRevision: cannot write latest cached revision to file: null 2015-01-20 15:52:32.432-0800 WARNING t25 FileHistoryCache.storeLatestCachedRevision: cannot write latest cached revision to file: null 2015-01-20 15:52:32.432-0800 FINE t26 FileHistoryCache.finishStore: Done storing history for repo /local2/mnt/workspace/opengrok/src 2015-01-20 15:52:32.432-0800 FINE t25 FileHistoryCache.finishStore: Done storing history for repo /local2/mnt/workspace/opengrok/src 2015-01-20 15:52:32.433-0800 WARNING t22 FileHistoryCache.storeLatestCachedRevision: cannot write latest cached revision to file: null 2015-01-20 15:52:32.433-0800 INFO t25 Statistics.report: Done historycache for /local2/mnt/workspace/opengrok/src (took 6.812 seconds) 2015-01-20 15:52:32.433-0800 INFO t26 Statistics.report: Done historycache for /local2/mnt/workspace/opengrok/src (took 6.811 seconds) 2015-01-20 15:52:32.433-0800 FINE t22 FileHistoryCache.finishStore: Done storing history for repo /local2/mnt/workspace/opengrok/src 2015-01-20 15:52:32.433-0800 INFO t22 Statistics.report: Done historycache for /local2/mnt/workspace/opengrok/src (took 6.795 seconds 
+Everything I looked at seems to be rated pretty well. Suggest perhaps making it harder to get > 4 stars. Also: Not clear exactly how metrics are measured. Suggest some brief description as hover tooltip. Not clear what an author can do to improve quality. "Is this your package? Here's what you can do to improve your score."
+business admin can currently delete the business in business admin management
+This formula gives error Missing close parenthesis..
+Thank you!
+Thanks so much.  That was a huge help!  One slight thing for people looking in the future is that it is skipBefore not skip_before. https://github.com/1602/kontroller/blob/master/lib/flow-control.js is the link to the relevant code."
+Rebar comes from https://github.com/rebar/rebarmake comes from Linux"
+Agreed with @Lukasa.Actually what do you guys think about making this Url.__str__() instead of Url.url?"
+I made that changes according to @Praburaj feedback. to  Should I have ignored it? #156 (comment)"
+Could you also check my recent commit. I added fragments, fixed bugs, moved to the latest tools.
+when connect to case-sensitive Sql Server, below errors happen:  in SqlServer execute send.sql return SqlException (0x80131904): Must declare the scalar variable "@lastpayloadid"  in send.sql, in line#6:  DECLARE @lastpayloadid bigint, in line#21: IF @lastpayloadid IS NULL if change @lastpayloadid to @lastpayloadid, then problem will not happen Invalid column name 'PayloadID'in send.sqlin line#24: UPDATE [SignalR].[Messages_1_Id] SET [PayloadID] = @newpayloadid;if change [PayloadID] to [PayloadId] then problem will not happen"
+1
+Ah, interesting. Didn't know about the VALUE_COMMIT event to be honest, now I know where my confusion about the differences between the two apps came from. Appreciate your input! I can understand you decision here and its nice to see that it does work without those two events as well.
+LGTM except the version bump on setup.py
+Dan is correct. Sorry this isn't yet better documented
+The problem seems to be that the version of cabal that you are using to install the package does not match the version Cabal-1.16.0.3 needed to compile the Setup.lhs file. Seems to be unrelated to reactive-banana. You may to check the Haskell IRC channel for live help on these kinds of problems. My usual solution is to delete my cabal environment and install the latest Haskell platform from scratch."
+As discussed in #1078."
+Okay, I pushed the change. Also I added detect.is-primary flag to tract level. I think this branch is in a good shape, and we can merge this into master!
+Hi I am using JqueryMobile 1.2.0 I am trying to use Data-dismissable ="false" attribute in the div containing data-role="popup". So that my popup doesn't vanishes when user clicks anywhere else on the screen. But somehow its not working. Any clues to what might be the problem.
+Make link to hasatypo.org actually 'hasatypo.org' and not the shortened link in the tweet
+Yeah, will see what I can get done over the next days.
+Need to fix coverage and update docs.
+if I add lang to preload everything works fine, It is problem of framework!
+Hey @meritozhThanks for the update.Though why closing the issue? Shouldn't this be patched in the formula?"
+cash wrote on 41447751-01-16 There are about 120 lines that still need to be updated (section: ADMIN MISC). Example: .plugin_settings {     font-weight: normal; } 
+The update intervals are probably too low, GPS inaccuracy may have too high effect on the measured parameters. For example if horizontal accuracy is 60 meters and the users moves 70 meters, GPS will provide a number between 40 and 100 which is very inaccurate. If user moves 300 meters with the same accuracy and prolonged update interval, the provided value will be between 270 and 330 which is much better.
+As explained in #17  and in the previous comment there is a mistake in the PerfMetricSet class. The real data is the unit.I will close this issue because we can do nothing to fix it."
+Is it consistently doing it or does it do it sporadically?  Can you look inside the CLSSR570 class on REIXS and make sure it does have the code where it uses the QTimer::singleShot(0, this, SLOT(setValue())?  Are there any other weird behaviours you've been noticing, timing-wise?
+mgp25#561mgp25#490"
+ Possibly relax GetClassesInActiveSolution to allow external classes? Show class signature (similarly to F12). 
+A little Splash screen with version, author, name and release type...
+It was a charset issue, adding -Dfile.encoding=UTF-8 fixed the pb.
+Possible issues with r.js optimization. Need tests to ensure everything works as expected.
+From james....@gmail.com on July 17Not a quick fix(for me). interface appears to have changed a bit."
+This is becoming less optional for some parks...
+@brianwawok I've added a ticket for this internally and it should be resolved fairly quickly. I will keep you up-to-date with progress."
+That's an excellent question.  The two most obvious options are:  Submit an issue with Jekyll and move on with our lives. Modify the csslintrc to turn off the "ids" check (  "ids": false ), and possibly also submit an issue with Jekyll.  I meekly vote for # 2.
+Steps to replicate:  Log in as admin Click Vendor Click Search Vendor Click search button Click info button on vendor that has shipping as type Click profile on side panel  Expected Result:  The page should be redirected to the profile page.  Actual Result:  The page did not redirect  to profile page. The link was hashed.  Screenshot: "
+Verified and closed
+Use forward declarations to avoid the need to include lots of clang headers. This drops the compilation time for CppParser from 17.8 seconds to 14.1 seconds for me. Signed-off-by: Tomi Valkeinen tomi.valkeinen@iki.fi"
+....com/show_bug.cgi?id=860922#c3  Change the block-local name to 'sought' in order to avoid confusion with @name.Collect the valid cartridges upfront in order to avoid creating an empty suggested_msg."
+From: Bot.io (Linux)  Received Command cmd_test from @yurydelendik received. Current queue size: 0Live output at: http://107.21.233.14:8877/ceedd0d11f1bc45/output.txt"
+Per conversations in SF today, a few points that seem relevant:  Moving the registration (e.handleFallThroughRequests(['/resources', '/font']);) to onactivate is non-controversial. Registrations overwrite each other and last-one-wins semantics prevail. We need an API for examining the fall-through registrations The fall-through handler (e.g., b.com's handler for a fetch that a.com generates) should probably have a different event name, e.g. onfallthroughfetch to prevent naive reuse of onfetch logic that isn't suited to dealing with requests from third parties CORS is hard. Logically, any fetch() from a.com, either from it's documents or Service Workers, that reach a fallthrough event handler should allow b.com's onfallthroughfetch to see CORS preflights and respond appropriately. Logically speaking, b.com's SW is executing across the network from a.com's perspective To prevent abuse, responses from onfallthroughfetch should probably be made opaque by default and explicit action, perhaps in the form of a different Response object type or an argument to respondWith should be necessary to make a response non-opaque. 
+Is taken into account in release 2.
+This is the latest one 0.1.2. Ember validation included as "ember-validations": "http://builds.dockyard.com.s3.amazonaws.com/ember-validations/ember-validations-latest.js" in bower.json is working fine for test and acceptance build but error in production build."
+Any news on this?  Interop issues tend to be time-sensitive with browser updates.
+The form looks like this on my computer: http://bluesock.org/~willkg/images/link/1424353472.pngI have a couple of ideas:First is that maybe using {{ form.as_ul() }} will give conveniently structured HTML without us having to do it by hand. If you wrap that with a div of class horizontal-form then that might work better.Second there's a margin-bottom on p from fjord.less. If you set horizontal-form > p margin-bottom to 20px that seems to fix some of the alignment issues."
+Done. Have a look at the diff and let me know of anything you don't like.
+I would also like to take this moment to thank you for this grid. I LOVE the explicit .one-third instead of .row4 or something. The golden ratio rule is awesome. This grid is lightweight. Gridception is a thing. So thank you! I will be recommending this.
+From jukka.svahn@rahinaa.biz on April 12doArray() provides inconsistent results the passed value is an array versus when it's not an array.This works:doArray(array() array('class' 'method'));But this does not:doArray('string' array('class' 'method'));This is due that array_map() uses callbacks but doArray's string version doesn't. doArray() expects that the second parameter is a string and that it also passes as a valid function name.Original issue: http://code.google.com/p/textpattern/issues/detail?id=172"
+Hi @zenspiderrake rdoc does not run with RDoc 2.3.0 because of the new code. With 2.4.2 you get a usage dump because of the error "invalid option: -A cattr_accessor=object" and with 2.5 you get "invalid option: --line-numbers" and an error message about the existence of the "doc" directory (albeit the destination "doc/rdoc" does not exist).We need to be able to run "rake rdoc" and have doc/template/horo.rb used as template as always in 2.3.x."
+I don't know how it works in L5, but it's not working in L4.2.
+[comment from ncanna...@gmail.comYes it's r4712"
+On Mon, Sep 15, 2014 at 3:12 AM, Denis notifications@github.com wrote:Mon Sep 15 09:45:26 2014 zabbix partitions.history_p2014_07_28 WARNING Incorrect result of cleaning: column_ident ns to_page 14770 pages_per_round 10 max_tupples_per_page 316.Mon Sep 15 09:45:26 2014 zabbix partitions.history_p2014_07_28 ERROR A database error occurred exiting:DatabaseError Can not executie command:VACUUM partitions.history_p2014_07_28ERROR:  VACUUM cannot run inside a transaction blockI have just updated v1.0testing so try again please.https://github.com/grayhemp/pgtoolkit/tree/v1.0testingKind regardsSergey KonoplevPostgreSQL Consultant and DBAhttp://www.linkedin.com/in/grayhemp+1 (415) 867-9984 +7 (499) 346-7196 +7 (988) 888-1979gray.ru@gmail.com"
+Review Tools
+this changeset introduces the following behavior:  threads will now either display new posts since the user's last visit OR  the 20 most recent posts. threads now fetch an additional page of posts when the user wants to see earlier posts (instead of fetching all of the remaining posts). the old behavior still exists and currently can be triggered via the same query param (all=true).  Fixes #125 and #137"
+Hi Mark, I have this week more time, will respond to your thread.
+Hi. I have been using sublimetext2 on windows 7 for a few months and Super Calculator was one of my favorite plugins. Now I have moved on sublimetext3 on Ubuntu 13.04 and when I press Alt+C it doesn't select the expression. If I select the expression and press Alt+C it goes on as expected, replacing the expression with the result. Is this a bug or am I missing something?
+thanks @bertinatto I made some comments. I think we may want to allow logging out too. Otherwise once you're logged in you're stuck. What do you think?"
+Thanks, I will integrate a similar change but I think the offset should be applied to UV coordinates in the ImBitmapFont::RenderText function?
+what is your build?
+You were fast on this one, thanks @tucksaun."
+I'm going to track this here: pekim/tedious#197"
+Reviewed and approved.
+Also....Ctrl-PageUp changes tabs in Firefox and Chrome which mean that we can't implement it in a way where it meets everyone's expectations. Also it seems like those instructions would make sense to a screen reader user(except for the change year) bit not necessarily to a sighted keyboard only user. It seems like the current one isn't meeting the ARIA spec exactly either so I think we will have to create a hybrid.
+I'm not sure what causes this, but running the following will call the "bad" or "bad2" callbacks many (hundreds of) times. The two "ok" callbacks work fine and were found as I was trying to isolate the problem. #!/usr/bin/python
+ What's the use case where you put a trailing comma at the end of a destructuring pattern ?  When one span multiline I guess: js> [ a,       b,     ] = [        0,       1,     ] [0, 1]  Admittedly not very useful in Coffee families since we don't need those commas at all.
+based on https://en.wikipedia.org/wiki/Private_network#Private_IPv4_address_spaces i guess ..."
+Posting to Programmes, Projects, Entities, Devices, Measurements or Datasets with made-up keys returns 500 Internal Server Error. curl -v -H "Content-Type: application/json" -X POST -u support@mastodonc.com:password --data "{"name":"TEST102""badkey":"blahblah"}" http://127.0.0.1:8010/4/programmes/"
+Will look at the OK word list later.
+This fixes an issue where the event "unstick" is not being triggered when the top has been reached.
+From hwa...@gmail.com on August 12Two more things:We should attribute the framework and the miniupnp guys somewhere.According to this (http://code.google.com/p/tcmportmapper/wiki/BasicUsage) we canremove a plist file (because we don't use the router name feature) and save 434K fromthe filesize. This is simplest to do in the make rule just after unzipping the framework."
+This checkin includes:  Fix the very weird blinkiness in particles that happened when a client and servers clocks were dramatically out of sync. I've confirmed that the new code works by adding a forced clock skew debug option to the client or server. Removed the three "universal time stamps" from the wire formats for viewing and editing particles lifetime and edited are now handled as time offsets assumed to be relative to now 
+The latest Win10 (RTM) tooling allows for installing, compilation, and even launches the app just fine with EF7. At runtime, however, calling new DbContext throws this error:  Unhandled exception at 0x0201AE83 (App1.dll) in App1.exe: 0xC00000FD: Stack overflow (parameters: 0x00000000, 0x06E62EC0). 
+Thank you for updating the docs. appreciate it :)
+I have yet to find a solution to this, but I wanted to bring it up. This is the error: ActionController::Serialization::ImplicitSerializerTest#test_render_array_using_implicit_serializer: NoMethodError: undefined method `attributes' for #<ActiveModel::Serializer::ArraySerializer:0x00000002968c58>     active_model_serializers/lib/active_model/serializer/adapter/json.rb:6:in `serializable_hash'     active_model_serializers/lib/active_model/serializer/adapter.rb:20:in `to_json'     .rvm/gems/ruby-2.1.2/gems/actionpack-4.1.6/lib/action_controller/metal/renderers.rb:96:in `block in <module:Renderers>'     active_model_serializers/lib/action_controller/serialization.rb:18:in `block (2 levels) in <module:Serialization>'  I'm still investigating. I'll post a solution as soon as I find one.
+so I think this is fine it works on master
+hoffe es passt
+Sorry, but I don't really see why that'd be the case. We just have to add the contents of each file into the files key, right? https://developer.github.com/v3/gists/#create-a-gist"
+As far as I know, BWA only accepts gzipped FASTA files during indexing, or as sequences to align. In either of these cases, BWA only needs to read the files sequentially and does not do any random access via byte offsets. bedtools getfasta needs to seek to specific offsets within the FASTA file, and these offsets cannot be calculated from a gzipped file. This probably won't happen.
+This is a set of small fixes and improvements of the shared memory/mmap support. Other than trivial one-liner fixes, there are two major changes:  update memmgr and its library to handle update failure better (see log for commit 662b2a3)"pre-load" zone data diff when applying outstanding diffs on loading to memory for improving stability (see commit 965d075)"
+Hello, I have added FAQ to address the questions.
+Looks good, but can you put the full tracker URL in the fixes line (since this is the kernel tree)?  Also we usually do the kernel review on ceph-devel and commit manually.  otherwise we'll still need to rebase manually and fix up the commit reviewed-by: tags etc. Reviewed-by:
+Critic review: https://critic.hoppipolla.co.uk/r/3629This is an external review system which you may optionally use for the code review of your pull request.In order to help critic track your changes please do not make in-place history rewrites (e.g. via git rebase -i or git commit --amend) when updating this pull request."
+ Dependency 'lager' is not using appropriate protocol, please change this to something like '(https://.|[0-9]+([.][0-9]+))' Dependency 'eper' is not using appropriate protocol, please change this to something like '(https://.|[0-9]+([.][0-9]+))' Dependency 'katana' is not using appropriate protocol, please change this to something like '(https://.|[0-9]+([.][0-9]+))' 
+ok I will see what I can do, give me a couple of days. meanwhile I suggest you install ws.js on some machine outside the enterprise and check the module into your node_moduled library directly.
+The refactoring has started. It's pushed here https://github.com/ofZach/cefWork/tree/refactoring_to_ofxCEF .I was going to merge this branch into 'develop' but I have some issues with Git and the CEF Framework. Git says that the files in the framework have been modified and wont let me reset them. Even after making a 'fake' commit they keep reappearing as modified files. Do you have an idea of what I have broken?Thanks!"
+thanks for you
+Should we consider to postpone it for the v1.1.0 ? Or do you think the feature should be officialy removed ?
+@eric89gxl this is for you ;-)
+Propagate the changes from the new TrackingParticles to the trackingParticleRecoTrackAsssociation  and the V0 validator. Also, use the (now faster) trackingParticleRecoTrackAsssociation in the MultiTrackValidator so that a further speed gain is achieved. On events with PU~20 (runTheMatrix 202.0) it reduced the time of trackingParticleRecoTrackAsssociation by 94% (!) and of trackValidator by 20%. The output should be unchanged. For 70X, 71X and 620SHLCX
+On this page: https://github.com/gruntjs/grunt/blob/0.3-stable/docs/types_of_tasks.mdCheers!"
+Yep - unfortunately the airport module doesn't work with Leopard or Snow Leopard! Enjoy Quicksilver, and if you have more problems, try posting/searching in the groups ;) http://groups.google.com/group/blacktree-quicksilver/topics?gvc=2"
+Any reason not to accept this?
+Hello, The default keybinding to move between workspaces is Ctrl-Alt-arrow key. I change this to simply Ctrl-arrow key, and this worked fine in Cinnamon 1.4. I changed the setting using the GNOME settings keyboard shortcuts editor. In Cinnamon 1.6, this no longer seems to work. The GNOME settings keyboard shortcuts editor still shows my workspace navigation settings as Ctrl-arrow key, but the only way I can move between workspaces from the keyboard is Ctrl-Alt-arrow key. I'm using Ubutnu 12.04 64-bit with Cinnamon 1.6 via the gwendal-lebihan-dev/cinnamon-stable PPA. This is a fundamental part of my desktop navigation, and it extremely frustrating to have to workaround.
+lgtm, and thanks!
+I think I found my mistake. The problem is that when you use the multiscan dialog of Paperwork, it always force the source to the first value that matches what looks like an ADF. I will fix that asap
+This is great. Cheers. Can you document the naming convention of the custom templates in the readme, or at least the source code?
+Ouch, good catch! Thanks Alexandre!
++1 too
+Patched INSA problem
+@dbjergaard How to set debug-stream to a file?"
+Thanks for pointing this out. There was an issue with how responses were chained. The docs are wrong too. It should be this: $response = $request->send();do {    echo "{$response}
+Hi @davidbiehlYea that is a rough edge since it is not mentioned that template files are compiled to name.js."
+I am able to select an image but not sure if the annotation is working or not because once I make one, I can never see it again. maybe it's hidden behind the large image? similarly, when i elect a text input or button, or radio button, the annotation just doesn't to work. is there a workaround this or is this a bug?
+I noticed that in newer versions of Python accessing the key "content-disposition" leads to a KeyError as the key will be named there "Content-Disposition" after converting url_lib.urlopen(url).info() to a dictionary.
+@cristiandouce yes the example works correctly for me."
+Now there is a Django template tag "map" that renders a project map with the following syntax: {% map project 260 180 'static' %} and {% map organisation 400 300 'dynamic' %} For maps with all projects: {% map 'projects' 975 600 'dynamic' %} On page load a javascript will grab all map elements from the page and render them with the correct data from the template tag. I'm consider renaming 'map' to akvomap' or something more namespacy.
+Any other method should raise an exception.
+In the source code of sinon 1.7.1 I find that forEach is used in the definition of function "FakeXMLHttpRequest". But forEach is not supported in IE7/8 so I'm afraid this is the key factor.
+costam costam o [119.41636, -5.15268]
+should change Ihelper interface
+Hi Marie, We tried with three different browsers (Chrome, Firefox and Safari) on an iMac and each one produced an sequence output. Since "Zoom in" is the choice right above "Dump selection as FASTA", is it possible that you missed the selection? If not, please provide specific parameters so that we can better reproduce the problem. Thanks. Raymond On 03/10/2015 09:17 AM, no-reply@wormbase.org wrote:Bug ReportWhen I go to "dump a selection in FASTA" on GBrowse all thathappens is the sequence zooms in. How do I fix this?Submitted From:support /tools/support http://www.wormbase.org//tools/supportThis issue has been assigned ticket number: #3674. Follow progress onour issue tracker #3674.Reported by: Marie (mg3088@columbia.edu)10 Mar 15 16:20Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18(KHTML like Gecko) Version/7.1.3 Safari/537.85.12This question was reported via the web interface at wormbase.org. Youcan also email us mailto:help@wormbase.org directly.You received this message because you are subscribed to the "WormBase:help" group.To post to this group send email to help@wormbase.orgTo unsubscribe from this group send email tohelp+unsubscribe@wormbase.orgFor more options visit this group athttp://groups.google.com/a/wormbase.org/group/help?hl=enTo unsubscribe from this group and stop receiving emails from it sendan email to help+unsubscribe@wormbase.orgmailto:help+unsubscribe@wormbase.org.__Raymond Leeraymond@caltech.eduhttp://www.WormBase.org/California Institute of TechnologyDivision of Biology and Biological EngineeringMail Code 156-29Pasadena CA 91125USAtel: 626.395.2687"
+Forgot to close this zone ...
+fixed in commit a21166c"
+I stumbled on this behaviour a few days ago when mass importing stuff into Nikola. Looks like my example wasn't that great. My test was made with this rev: ralsina/nikola@df26537I updated to the latest version from github (master) now.I tried again with setting up the demo site and then going through my steps descriped above.To make it clearly different from the first post I did not only change the date but also the url title and tags aswell removed the source before buildingWhen running doit I am not seeing the build of a new archive (overview) page. Neither is a new tag overview generated."
+Hi. Your friendly Curry bot here. Just letting you know that there are commit authors in this Pull Request who appear to not have signed a Chef CLA. There are 1 commit author(s) whose commits are authored by a non GitHub-verified email address in this Pull Request. Chef will have to verify by hand that they have signed a Chef CLA. The following GitHub users do not appear to have signed a CLA:  @brettchalupaPlease sign the CLA here."
+ thanks for your feedback.I understand your doubts and I can keep this feature outside my fork of EXT:bootstrap_package.These classes are intended for advanced users and based on my experience I think that these are useful in some cases if used in the right way to solve particular design problems without create more custom layouts.== uid / parend.uid ==It's true that they could get lost but and advanced designer/developer should know how to handle this problem. Btw I used alias // uid so it's possible to use the alias of the page to bypass this problem.== language.uid ==I don't see the need of a "speaking" class cause I guess that advanced users know how to handle languages uid ;)== template ==I didn't mention "templates" I talked about "layout" or did I miss something?== layout ==See following Typoscript. In this case classes names related to layouts could be shortened to taste.In case of one page I tested it and the body tag is taken from the root page then no problem here as far as I can see."
+The parameters data_specs and return_tuple in iterator method are missing from abstract Dataset class. Exactly here"
+Pull requests don't have to be full, the idea is to get a conversation going around a chunk of code. As it is right now, manual patching has to go on, which discourages others from helping out.
+Status.net groups were always a misguided misfeature.  Groups on status.net are just hashtags that you can follow... but properly implemented hashtags should be followable, making the extra syntax redundant and annoying.
+Testing result, using 5 batches of 10,000 users each, loaded concurrently: ======== Master ========  Time taken: 961 seconds Number of users created: 50,000 (52 users/second) Number of requests: 146,172 (152 requests/second)  ======== SHA512 ========  Time taken: 543 seconds Number of users created: 50,000 (92 users/second) Number of requests: 146,435 (269 requests/second) 
+These are super old functions from MiniD pre-1.0 which... I honestly don't think have much use. You're just gonna use foreach loops.
+Ping @scande3"
+Indeed it does
+Yep, I've placed two patches at http://groups.google.com/group/nodejs-dev/browse_thread/thread/5bccaa347d035659 you can vote if this patch is usefull for you."
+identifikasi kerentanan -> 1 Jam 10 November 2013 16.00-17.00
+Thanks! (And we'll get that contributor agreement to you.)
+I wouldn't have deleted the test urls, nor the secure cookie probably (unless it's unused?). This ruleset now doesn't secure http://lebsanft.org/ either - is this intended?"
+costam costam o [-87.65205085, 41.88445835]
+This is expected. .color1 .color2 a:hover is a subselector of .color2 a:hover, meaning that every element matched by .color1 .color2 a:hover is also matched by .color2 a:hover. The same is true for .color2 .color1 a:hover of .color1 a:hover. So Sass trims the unnecessary generated selectors, producing the output above.
+One of the features we really wanted in Mezzanine (but couldn't get) is page revision support.  Are there any plans to add this features into Wagtail?
+SlimRoms/frameworks_base@c6add8fmethodprivate final Runnable mGlobalMenu = new Runnable() {   @Override   public void run() {       sendCloseSystemWindows(SYSTEM_DIALOG_REASON_GLOBAL_ACTIONS);       showGlobalActionsDialog(false);   }};I solve with this"
+Even when nested model's validation fails primary model's attributes are getting updated. http://jsfiddle.net/sarfaraz/gnLmm/"
+I have it passing tests in browser and in node, but I don't have anything using it.  It is based on code that is running in production, but that used Sunday as the first day of the week. Right now it should work for those guys in #166I think you can go ahead and put it in the docs but I would like to have more people actually use it.Thanks"
+Fixed here: http://github.com/jnunemaker/httparty/commit/0f606b24020f2d103698d9f5809f836478b2d1b5"
+Though I'm not the maintainer of the official debian images (i.e. I don't build them, I just maintain the bootstrapper) I'd hazard a guess and say that it will boot through grub, or at least I'll strongly urge the maintainer to do so (bootstrap-vz can install & configure either extlinux or grub). It's sad really. I like extlinux. It's a lot easier to set up than grub and is built with simplicity in mind, but the state of the debian package in jessie right now makes it pretty much impossible to install/configure and maintain through kernel updates. I sincerely hope someone will step up to the challenge and apply the finishing touches to the package (and from what I've seen it's not a lot that's required).
++1, dont see anything harmful
+note: I think this imperfection was fixed in commit 4049b63 I just forgot that there is an issue for the problem. Need to test more though"
+Hmm, nope, touching didn't work (probably needs to be set to "{}"). Or I'll see if I can dig up an old copy of the file from somewhere, to have copied in.
+View details in Rollbar: https://localhost/uencbqqenc/rh19cufv04/items/18/testing 123"
+Also note that the regexps from my previous comment are mangled by github as it removed backslashes and underscores. So make sure to not copy and paste from here.
+I guess some of the certificates were created before we added the internationalised versions, where we made the naming more consistent...
+Yep, great minds! I'll try and get the release done this weekend. Thanks all the same Troy.
+<!-- Auto activate component with parameter --> <div data-component="component-name" data-activate data-bind="activate: someProperty"></div>  <!-- Auto activate component with no parameter --> <div data-component="component-name" data-activate></div> 
+Congrats! You have successfully completed the homework for week 1.
+Hi, the max number of connections is 100K+. Your test stop at 1006, that's mainly because your system settings about max open files configuration or so, both server side and client side. Please google it.
+Well, we have this exact case: a daemon is periodically fetching collection of tasks from a db table, and new tasks get started, old tasks get deleted, and changed tasks get restarted. Reset would drop all the old models, and no "change" events would be fired. This pull request fixes crash on the second fetch of the same collection, when there are changes in a table.
+he's right, new rvm (as of yesterday) has moved.
+Then ACK.
+Tabs: added a border when tabs are displayed out of a dialog - Closed by 414dda0Dialog: when tabs are used inside a dialog no border is used by default"
+@gylaz are you absolutely sure that a new install only has /etc/zshenv? Several people are saying that it's /etc/zshrc. Also are you using tmux?"
+same behavior on Firefox 35.0.1. Note that this bug was fine with Chrome 40.x.x
+@timaschew: It is valid JavaScript but there is no CoffeeScript equivalent. Like with(x){} or undefined. It should be parsed then it should give an error that it can't be converted to CoffeeScript."
+ but it's pretty inevitable that you're going to have to use lenses in any non-trivial program.  Not sure I agree with that.
+Do as part of feature fields features
+1.Contacts :  - when adding a contact>when inputting name need an option to toggle between phone like keypad and Qwetykeypad. 2.Firefox  - In firefox it will be better if we have an Exit button alongwith bookmark button. 3.Firefox  - the settings menu is not upto mark.. 4.Firefox - Settings>About Firefox> back button is not working  Gallery - select photo>Edit> from edit screen not able to go back. FM Radio - option button is needed. Most of the screen missing option buttons.. 
+ calling it disruptive at all makes no sense to me because the only way in which development is every a disruption is if there are other things that we'd prefer to be doing but cannot.  That's not what I have meant. Let's find a different expression then, instead of disruptive. How would you describe a step which we really want to make, but which will mean that we will have to go back a few steps, and redesign and re-implement stuff which was already working once? I am happy to use a different expression instead of disruptive; this is the meaning that I wanted to convey.
+This is what I'm thinking about: elemoine/ol3@cf96b10."
+@alicoding and will be doing it as soon as I'm back home :)"
+Can you please publish this to the Guardian maven repo?
+https://groups.google.com/forum/#!topic/vim_dev/8efdWXWKiNM"
+ values:  https://github.com/neo4j/community/issues/132strings:"This issue was migrated from """valueCount: 1"
+Analysis: The pattern match failure is no big deal, but it cannot be fixed until the second issue is fixed. The second issue is a bit more serious. The ILAst after the last ILAst transform is as follows: finally {     stloc:IDisposable(var_2_2F, isinst:IDisposable([mscorlib]System.IDisposable, ldloc:IEnumerator(var_1)))     if (logicnot(ldloc:IDisposable[exp:bool](var_2_2F))) {         endfinally()     } else {     }      callvirt:void(IDisposable::Dispose, ldloc:IDisposable(var_2_2F))     endfinally() }  That code is technically correct, but it cannot easily be transformed into a C# AST without introducing an unnecessary goto, since C# provides no mechanism for leaving a finally block other than by falling through the bottom. I tested some other code, and have found that pretty much every case involving more than one endfinally in a finally block can cause similar problems. I have further checked the code, and endfinally is simply dropped on conversion to the C# AST, which is only valid if it is the last statement in the finally block. With that in mind, the best fix that I can see is to create a special basic block consisting of only a label and an endfinally(), and replace the endfinally() calls in other basic blocks with a branch to this block. (Do not forget that endfinally() can take arguments with side effects which may need to become stand-alone expressions). The new endfinally basic block cannot be incorporated into a loop or conditional structure, and must be the very last basic block merged into the flattened block. This is to ensure that it will be the last instruction in the finally block so that the C# code has execution just fall out the bottom of the finally block. The above would not need to be done with any finally block that does not contain an endfinally, which is permissible if it always either does not terminate or throws an exception. (All of this would also apply to fault blocks.)
+Using Human instead of Person
+Fixed in a1dbd19"
+Oh I forgot to tell you that you are very welcome to add yourself as a contributor in the DESCRIPTION file.
+It tries to set item name and that doesn't exist there.
+Currently Safari can't open the output files (it crashes when there's too many plots it tries to place on a page).  Firefox can handle it, but it's best to make this an option with some sensible default and break the output up into multiple HTML pages with relative links between them at the top of the page.
+related to commit 61f0649"
+Also, please squash commits to one, and do not forget about [ci skip], thanks
+Yes i'm trying to separed and i will make other PR, i'm working in the VRF discovery-poller and for last another PR for the visual part, and i will make the PR like #486 to. :)"
+This plugin would provide a dynamic_reconfigure server which would interface with the RTT properties of a given component or components.
+This commit fixes all puppet-lint errors in core.pp and many of the warnings as well. Closes-Bug: #1210645
+When i trying to use Google+ native share dialog to share some simple text, the application just crash with the following error. i can see the native share dialog was presented, but crash instantly. Everything works just fine with normal share dialog(fast-app-switching), any idea why it only crash with the native share dialog ? 2014-03-12 17:02:21.130 ShopsDirect3[1674:60b] <+[SHKSharer getUserInfo] SHKSharer.m:(322)> Warning!!! This sharer does not fetch user info. 2014-03-12 17:02:21.374 ShopsDirect3[1674:60b] <-[SHK keepSharerReference:] SHK.m:(108)> +++ Google+ reference 2014-03-12 17:02:21.375 ShopsDirect3[1674:60b] <-[SHK removeSharerReference:] SHK.m:(114)> --- Google+ reference 2014-03-12 17:04:26.980 ShopsDirect3[1674:60b] * Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '* -[__NSPlaceholderDictionary initWithObjects:forKeys:count:]: attempt to insert nil object from objects[1]' *** First throw call stack: (0x2d8e4f03 0x38079ce7 0x2d822d3f 0x2d822b03 0x28d831 0x265cd7 0x28faa1 0x28fd8d 0x28ff99 0x26637b 0x233c4d 0x2e2cdc23 0x2d8affe7 0x2d8af4af 0x2d8adc9f 0x2d8187a9 0x2d81858b 0x327856d3 0x30177891 0xdf731 0x38577ab7) libc++abi.dylib: terminating with uncaught exception of type NSException
+A little bit off topic, but could you give me CONTRIBUTOR medal? My username is f0VM."
+So it turns out that I do not have karma for doing the release on Pecl. I've applied for the permissions but will need them before being able to tag a version as the release.
+Yes, I understand you. Can you open up inspector tool in chrome and remove "accepts" attribute from file field and see how it goes?
+Thank you for the answers, that was fast!
+Dup of #5687closing here"
+@christian-bromann I am interested in a code example for what you have said. Just curious here. Thanks"
+I'm happy to pick this one up from here if everyone's ok with that.
+@mathieui  It would be more confusing to only support part of the specification"
+@ItaloKnox still doesn't work what OS patch version and graphics version are you using? I made a full reinstall.. but it still doesn't work.. i'll just try deleting even my saves. Thanks for the quick response. I hope I can resolve this.. much better experience when using this mod."
+Yes, that is the desired behavior. Put all database.yml connections in the pool and let makara manage them based on availability.
+this minor typo seemed like a good excuse to experiment with this pull request feature that i've admired but never used.
+BTW, are you still publishing via Sonatype, or are you doing the Bintray thing? I tried Bintray and found it incredibly confusing and frustrating. If it's possible to set the relevant attribute via Sonatype, I'd rather go that route myself.
+A visitor pattern already breaks some encapsulation but the trade-off for the coupling is acceptable because of the generality of the mechanism. I did not add a method like this because I consider the decision to process a node's children to be a component of the specific visitor's state. I would like to see what the code looks like using these approaches before deciding whether to include this method:  The visitor maintaining state that says whether to process node X when it is a sub-node of Y The visitor deciding to call #lazy_visit (or whatever the method is named) when node X is a sub-node of Y Changing #visit to required a return value that specifies whether to recurse into the children when the node is Y  Do you have time to code these three approaches so we can compare them? I would be most inclined to support 3 above. It is still generic, without duplicating the method and allows for a mixed approach on any particular iteration of a tree, as opposed to 2 above which requires deciding to use #lazy_visit in place of #visit. To be clear, both 1 and 3 require maintaining some state in the visitor, but the logic associated with that state appears preferable to logic deciding between calling #visit or #lazy_visit.
+I'm going to close this issue.  We can always raise another one for next week's get-together.
+I've only started looking at zaw recently. Would a two level menu with selection of the right command to run "open" "$EDITOR" etc. in addition rather than having only one command be better/doable? "open" does work for OS X.
+Hi! Thanks for an excellent library. This fixes a couple of issues:  The settings for 125kbaud were incorrect, leading to errors arduino.h should be Arduino.h; on case-sensitive filesystems this fails. 
+Thanks for fixing that part! I think it's now overall done.
+The ViewModel and the MvxCommand is in a Portable Class Library, and it doesn't work in both Windows 8.1 Project and Windows Phone 8.0-Silverlight Project. I don't get the Point with the non-generic MvxCommand, since it doesnt pass a parameter. So I guess it works, because the CommandParameter isn't touched at all.
+So I just stumbled across this page, http://docs.basho.com/riakcs/latest/cookbooks/mdc-typed-buckets/It looks incomplete out of data and definitely in the wrong place but it might be a good start?"
+sfoulkes: Alright, closing this for now.
+Our maps will operate on GeoJSON views of places (maybe even people?). The mapping javascript in an HTML page like places/42 will look for a link with a GeoJSON data uri (see http://sgillies.net/blog/958/geojson-data-uris/). For example:  This saves us from an extra XSLT run and extra request per place. We probably still want to have a GeoJSON file for all places."
+Is this the intended behavior? file1.txt: cats  file2.txt: dogs  test.pl: #!/usr/bin/env perl use 5.10.0;  use IO::All;  my $s;  $s < io('file1.txt'); say $s; # --- 'cats' : ok  $s = [];  $s < io('file2.txt'); say $s;  # --- ARRAY(0x7fcff40b79c0) #     should output 'dogs' ? 
+Ah, it was indeed fixed 8 days ago i was using 1.0.0-rc5"
+Generate Resources/FailureMessages to pave way for ResourceBundle-less Resources/FailureMessages for scala.js.
+Yes we have a similar issue with openSUSE. The problem really is the breed abstraction; unfortunately there are differences within a breed. To fix this properly; the breed concept has to go and all these installation specifics should be tied to a distro signature. This is on my todo list, somewhere. Can you verify if the cdrom::/ uri will also work with rhel/centos 4,5,6,7
+Looking forward to having this implemented.
+I can imagine HQM is a pain to configure right with sub ID's. Thanks for the update, I'll keep playing and let you if I find anything else. Nice work btw, amazing pack.
+Completed. Now the post methods return an array of assessments with the updated results. Let me know if everything is ok!
+I fixed the conflict and rebased.
+Removed parameters not applicable.
+A basic idea for documenting page_namespace_prefix and page locators. Closes #131"
+something funny Y = ->p{->f{f[f]}[->g{p[->*n{g[g][*n]}]}]}ref:http://rosettacode.org/wiki/Y_combinator#Rubyhttps://gist.github.com/redraiment/6445345"
+Gauge supports refactoring via getgauge/gauge#22 need to wire up runner to support it in C#."
+Maybe we should remove the CSV functionality altogether since it would break the Transactions one anyway when it tries to read the Transactees.
+Ok, closed for now
+@rgrp just attached some code which fix sorting and filtering."
+Hi Mike, Are you on the network and can write to your home directory? You can confirm this by pasting the path into the location bar of Windows Explorer and creating a new file or folder there: \icnas1.cc.ic.ac.ukmb4514  You might try using a local path instead, ie on your C drive. Here's a revised version of the install script presuming you've already successfully installed the necessary packages (the first part).  Notice the new variable which you should update to a writable local location. # set this path to a writable local directory (note forward slashes)dir_local = 'C:/Users/mburgass/Documents'
+@mbabker Thank you sir!I have installed the update and everything is working as expected!I'm buying you a beer!Again thank you!"
+If you disconnect a connection, slot_count() will be inaccurate until you call emit(). We should keep track of the count manually
+From rnk@google.com on October 15I agree with the UTF-8 plan but I'm wondering if the encoding wouldn't be so hard to do without ntdll if that proves difficult.  Are wchar_t * strings always UTF-16 or can they be something else?  I can't find a straight answer.If it's always UTF-16 it shouldn't be too hard to write something that just does codepoint conversions and ignores subtle issues like case whitespace numbers and normalization."
+Is this a use case that we are worried about?  Will it be typical for our users to provide images that have a singleton z dimension? In some cases, there's already a simple workaround: Use the dataset properties editor to change the axis order from xyzc to xytc.  (That's not an option if your image started with txyzc, though...) Perhaps we could add a new convention for squeezed axes: txy-c or something like that.
+From my understanding, it is possible to use GRANT PRIVILEGES, so adding to the docs that it isn't possible isn't really true. It is fine to add recommendations and best practice, but stating that using GRANT PRIVILEGES isn't possible is not correct.
+Hi, I'm using both the streaming and the REST api in my application. Streaming works nice, some to the REST calls too, but for some reason, twit.post('friendships/create', {           screen_name: tweet.user.screen_name,           follow: false         }, function (err, resp) {           if (err) {             return console.log('friendship gave error: ' + JSON.stringify(err));           }           console.log('friended');         });  always returns an error: friendship gave error: {"message":"Could not authenticate you","statusCode":401,"code":32,"allErrors":[{"message":"Could not authenticate you","code":32}],"twitterReply":"{"errors":[{"message":"Could not authenticate you","code":32}]}"}  I'm pretty sure I am authenticated properly, otherwise the other calls to twitter would'nt work... Any thoughts? Thanks! nick.
+Just create a linear dungeon where user and enemies walk through each other.
+is available. Small fix, but makes the code a lot nicer (at least for the compiler) on iOS5. Also, is faster then the NSInvocation call.
+Looks like an improvement, but can you confirm this actually fixes #4340? The module use command will succeed but throws an error on run"
+No, this doesn't work. I would have to pay for every single subdomain to get https (there is no unlimited plan). And there is no redirect mechanism.
+We'd like to request either a config to toggle the forestry integration for the fermenter, a config to set the biomass output of BoP saplings in fermenter or a general reduction of their output.  As it currently is the worldgen BoP trees produce 5x the amount of vanilla tress and nearly as much as the best forestry tree that takes extensive breeding to obtain. For our pack this is quite unbalancing for energy production.
+Thanks @victorhurdugaci and @yishaigalatzer  I suspect something got reversed when copied from MVC 5.2.  Seems important; so I'll look at the issue tonight -- at least enough to get an inkling of the root cause."
+Currently the non-default box model is being globally applied which is out of scope for Splinter. Changing the box model globally should be done by the end-user. Can we scope the different box-model to the grid?
+About Page content has been uploaded to the wiki.  Patric, I don't anticipate any images to appear on this page.
+For some reason the default value of '~/.githubconfig' isn't working. Seems like the ~ isn't getting interpolated.
+Sorry @tgravescs  these days very busy I'll address them this weekend."
+I've fixed both bugs and merged all my changes into master. Now I can see Kitchen Sink title with labels floating from both sides until they reach center.
+The problem is that clicking in a scrollbar in IE will enforce that the search input field loses focus while in FireFox and Chrome it does not. If you drag the scrollbar in IE and than drag the mouse to your left on a search result it is not possible to use the arrow keys up and down straight away. Reproducera the problem:  Make sure the search input field has focus Move the mouse to the result scrollbar and click it (click and release) The search input field no longer has focus in at least IE 8 to IE 11 but works in FireFox and Chrome  Discussions regarding the problem: http://www.dynamicdrive.com/forums/showthread.php?19311-Cursor-focus-getting-lost-in-IE-Please-helphttp://stackoverflow.com/questions/2284541/form-input-loses-focus-on-scroll-bar-click-in-ieWorkaround:If you click the scrollbar twice the search input field will again get its focus or implement the that the search field gets its focus back after the stopPropagation is done (fixes the IE problem even if it is not nice)this.dropdown.on("click mouseup mousedown touchstart touchend focusin" $.proxy(function(e) {    e.stopPropagation();    if(e.originalEvent && e.originalEvent.srcElement && e.originalEvent.srcElement.id === 'select2-drop') {        if (this.opts.shouldFocusInput(this)) {            this.focusSearch()        }    }} this));"
+This has been released in v0.0.15 of the gem and pushed to rubygems.
+PS: apparently, you can probe the UPS status using _apcaccess status_; if your plugin run in a loop, you can check the UPS status before launching it.
+so what should I do to install fs-boot@0.0.9 by npm? In my case looks like connect-livereload@0.1.4 depends on fs-boot@0.0.9 and I cannot proceed.
+the whole query string is always set in the server variable, so why the split orgy anyway?
+Use UDPClient instead of UDPServer Add fuctionality to :  use timezone If no callback, set systemtime in ntpclient wait until wifi connected use both NTP_VERSION 4 and 3 answers 
+Now still have 2 failed testcases with USE_TZ=True: ====================================================================== FAIL: test_answer_question (askbot.tests.post_model_tests.ThreadRenderCacheUpdateTests) ---------------------------------------------------------------------- Traceback (most recent call last):   File "/home/hsn/code/askbot-devel/askbot/tests/post_model_tests.py", line 563, in test_answer_question     self.assertTrue(thread.summary_html_cached())  # <<< make sure that caching backend is set up properly (i.e. it's not dummy) AssertionError: False is not true  ====================================================================== FAIL: test_view_count (askbot.tests.post_model_tests.ThreadRenderCacheUpdateTests) ---------------------------------------------------------------------- Traceback (most recent call last):   File "/home/hsn/code/askbot-devel/askbot/tests/post_model_tests.py", line 625, in test_view_count     self.assertEqual(html, thread.get_cached_summary_html()) AssertionError: u' <div class="short-summary" id="question-1">     <div class="counts">       [truncated]... != u' <div class="short-summary" id="question-1">     <div class="counts">       [truncated]... Diff is 1955 characters long. Set self.maxDiff to None to see it.  I don't know how to solve them!
+Me neither :) searched for "pip requirements include another requirements file" and google gave me this: http://stackoverflow.com/questions/11704287/split-requirements-files-in-pip"
+Same issue here on Linux.  $ ruby -v ruby 1.8.7 (2011-02-18 patchlevel 334) [i686-linux], MBARI 0x8770, Ruby Enterprise Edition 2011.02 $ bundle -v Bundler version 1.0.15 $ gem -v 1.5.2 
+As for now (v.2.0.0-beta.0) the findAndCountAll removes the "include" key from the options hash for the count query, and therefor when the "where" conditions contains a condition related to an association, it fails. Example: When I execute: User.findAndCountAll({include: [Role]I get:Error: ER_BAD_FIELD_ERROR: Unknown column 'Roles.name' in 'where clause'Because the generated sql is as follows:SELECT count(*) as `count` FROM `Users` WHERE Roles.name = 'administrator'This is quite annoying because I like the convenience of the findAndCountAll method but this makes it useless for a lot of common queries."
+Roger that, I'm about to push some code here as well.
+on firefox 28 and safari 7.0.3 (9537.75.14) i get: TypeError: raw is null + full stack and the error originates in "buildTopology". The failure appears to be when pushing data into the store, not on retrieval. I don't think this is an Ember or RSVP problem
+child_process.fork works in client process (and there's a unit test for it), but fails when you try to run it from the browser process. Here's my simple main.js: var child_process = require('child_process');child = child_process.fork(__dirname + '/child.js')child.on('message' function(message) {  console.log('got message from child:' message)})And the corresponding child.js:process.send('hello from child');When I try to run this app I get the following output (paths edited for clarity):Atom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper: bad option: --atom-shell-switches-startAtom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper: bad option: --no-sandboxAtom.app/Contents/Frameworks/Atom Helper.app/Contents/MacOS/Atom Helper: bad option: --atom-shell-switches-end"
+@ejarviThanks for your contribution as a Microsoft full-time employee or intern. You do not need to sign a CLA.ThanksMicrosoft Pull Request Bot"
+According these instructions here https://github.com/opencart/opencart/wiki/Modification-System the folder upload should contain all those folders and files which shall be overwritten.But if there are no folders and files the installer checks the existence of this folder though.Currently an empty folder upload works but this should be changed if only a single .xml  file is needed."
+I know this is some time ago, but is there any plan to get Custom Function into the code?
+Behavior of the font-weight: bolder is the same in all browsers, as I know. Bug or not, we can rely on this behavior.
+:D humm... Many apple users would be quite upset. We can recommend to use another browser though. Still the basic functions should work on every of the big browsers (considering safari a big browser here), imo.
+@fengyuanchen How can we send the cropped data to server side without using the ajaxUpload method?In my case I just removed the form tag and used a section element instead. This is because I'm using it within another form tag and don't want the form to submit. I'm working on a(n) update form and found your solution as the best feature I want."
+SetFromList has been implemented.
+@mburo Sorry your problem seems different from the one in this issue. In order for the issue tracker to work (for example automatic closing etc.) new issues should be posted as new issues. Please create a new issue. Don't worry creating issues is free."
+Looks like something on your end where CORS headers are not being sent on the manifest.json file that Plunker uses to find all the relevant files. Maybe @petebacondarwin can help?"
+If there's an error opening the page we're returning 404. This is wrong. The proper error code should be returned instead.
+concerning a) not much difference. It's grabbing the mouse, I just verified by:  sleep 5 && xwininfo open kmix hover mouse over it got: xwininfo: Please select the window about which you would like information by clicking the mouse in that window. xwininfo: error: Can't grab the mouse. 
+the status displays branch name followed by remote, while the git command follows remote/branch name. It would be more consistent to also follow this. "
+These tests passed, updated wiki. Partitioning    QA:Testcase_Anaconda_autopart_(encrypted)_install (i386) + 6.0 (herlo 2012-12-25) / (x86_64) + 6.0 (herlo 2012-12-25) Partitioning    QA:Testcase_anaconda_ext4_rootfs_on_disk_partition  + 6.0 (herlo 2012-12-25)    + 6.0 (herlo 2012-12-25)
+I've added a fiddle of the Balloons.svg: http://jsfiddle.net/EmanueleS/d2VzQ/"
+Add a "Climate" category? To include "climate change". Not a policy area listed in Natura 2000 but seems like a key area and is mention in MMO list of evidence areas.
+If you could just provide a way to disable the self-signed allowance, that'd be good. I install my own CA cert onto my devices, but realized that DSub worked without this. Allow self-signed should be a checkbox at least.
+Absolutely. Following the same process as before update. navigate to root of pictures, in this case a folder for 2007. flickrsmartsync Getting photos in set [2007-03] Found 0 photos Uploading [lunar-eclipse-1.jpg] to set [2007-03] Uploading [lunar-eclipse-2.jpg] to set [2007-03] Uploading [lunar-eclipse-3.jpg] to set [2007-03] Uploading [lunar-eclipse-4.jpg] to set [2007-03] Uploading [lunar-eclipse-5.jpg] to set [2007-03] Uploading [lunar-eclipse-6.jpg] to set [2007-03] Uploading [lunar-eclipse-7.jpg] to set [2007-03] Uploading [march-2007-01.jpg] to set [2007-03] Uploading [march-2007-02.jpg] to set [2007-03] Uploading [march-2007-03.jpg] to set [2007-03] Uploading [march-2007-04.jpg] to set [2007-03] Uploading [march-2007-05.jpg] to set [2007-03] Uploading [march-2007-06.jpg] to set [2007-03] Uploading [march-2007-07.jpg] to set [2007-03] Getting photos in set [2007-04] The thing is that this whole process took 10 seconds or so as it went from one to the next with nothing being uploaded.
+Done. Please verify on chrome/safari, for Firefox I hat do add a fallback, datepicker not included natively. How is the resulting date format from native datepicker? (I use YYYY-MM-DD)
+Also removes one TODO: // TODO: Actually we should not modify the original objects and then copy them to the destination model, but the other way around... 
+As you can see on the tests you can receive a value in the post data that you can use to get another value/object that is the one you actually want to store in your new object. Using this approach avoids overwriting the obj_create method like in this case: def obj_create(self, bundle, **kwargs):     kwargs['author'] = User.objects.get(username=bundle.data['username'])      bundle = super(CustomNoteResource, self).obj_create(bundle, **kwargs)     return bundle 
+Yeah sure, I think that would work too.
+@awwaiid confirmed local operation within inventory and lib/workers"
+we need to switch to dev-tree before ... to be continued
+I stored some keys directly in Redis that I then wanted to read using Econfig. Took me a while to figure out that I had to prefix them with 'econfig_'. Can't really see why it's hardcoded.
+all dev servers are back up, @pdehaan to re-check and close"
+Well, whatever your goal is, if your run the code in a plain browser or in a sugar web activity, it is currently a different platform, for the meaning I'm giving to that word at least. The APIs you have access to are different and you somehow need to deal with that fact. That's all I meant :) Great to hear you will keep working on this.
+This allows the sorter to handle records larger than the memory sort buffers.
+I understand. However, I am completely sure there is no problem with the date value that this directive is returning. Of course there is always a chance that I am wrong (it happens pretty often), so If you can send me a PR with a test that reproduces the problem I will be happy to look into it further.
+Hello, yaws_session_server:print_sessions/0  doesn't work due incorrect message, additionally Backend:list/1  doesn't exists, the correct one is Backend:list/0 Regards.
+Whenever somebody removes this Linux-specific code, please also remove the workaround in firmware/Makefile to enable the built of sockserv.
+passport.use(new LocalStrategy({ usernameField: 'email' }, function(email, password, done) { email = email.toLowerCase(); ...
+I ported a large portion of the Graphserver core over to Java, and I'm beginning to run some benchmarks on a real-world street graph of the Seattle area. Test 1 (85th street to beacon hill) Java: 646 ms C: 23 ms (28x faster) Test 2 (ballard ave to lake city way) Java: 277 ms C: 9 ms (30x faster) I'll get these benchmarks polished off and send out for peer-review soon, but it's not looking too good for Java. That's too bad, because abstract classes are exactly what Graphserver is all about. In the case of Graphserver, which aims to be a calculating engine for a mission-critical piece of infrastructure, I think speed is nearly the most important consideration. It may be less portable, but it also requires one thirtieth the computational resources. For a piece of software I fully expect to peg servers and require horizontal scaling, that literally means you'd need thirty times as many machines to keep up with the same load. I think that'd cost more than an extra half a day figuring out how to install it. --bmander
+Thanks for the bug report; I'm surprised that we didn't discover this issue earlier!
+By slow collapse, do you mean that the animation is slow or that it lags? On Apr 10, 2014 10:19 AM, "KunamiPT" notifications@github.com wrote:I think the problem it's when it needs to recalculate listview height onlywhen listView is smaller than the screen and once more it only occurs on aFragmentActivity where i use sliding menus.Reply to this email directly or view it on GitHubhttps://github.com/idunnololz/AnimatedExpandableListView/issues/1#issuecomment-40112575."
+Triggering build using a merge of eb5c907 on branch master:Private: https://jenkins.mw.lab.eng.bos.redhat.com/hudson/job/Weld-2.x-pull-player-executor-osprey/"
+@jodastephen do you know if this issue can be a bug or afterwards this is just how Java 8 behaves and we have to live with it?"
+I thought I will implement it by myself, but currently I have no time for it. So I just write down the idea in case somebody will like it and implement, or in case I will return back to it next year. The idea is to extend the definition of variables so the strings could be used as the access-keys in addition to integer numbers. One can think of them as std::map<string,string>, or python dictionary, or lua tables which are the closest. Possibility to use dictionaries exists also in bash/zsh, though dictionaries are distinct from ordinary variables. Why it is useful? The latest example I saw is in __terlar_git_prompt, where you need to get a color and symbol for named elements in a list: for i in $fish_prompt_git_status_order    if contains $i in $gs      echo 'set_color $fish_color_git_'$i      echo 'echo -n $fish_prompt_git_status_'$i    endend | .Where $i runs the items from the list: added modified deleted etc.If one could use variables as dictionaries this piece of code could be rewritten in the following way:for i in $fish_prompt_git_status_order    if contains $i in $gs      set_color $fish_color_git[$i]      echo -n $fish_prompt_git_status[$i]    endendWhich for me looks much nicer and simpler.How not to break the ordinary variables?That is actually very simple. The idea is almost the same as in lua tables (http://lua-users.org/wiki/TablesTutorial):If the key is number it refers to the 'array' part of the variable which is what a variables currently.If the key is a string (starts from a letter for example) it refers to the dictionary part.Dictionary part should not affect all the previous behaviour. "$variable" is expanded to a list of array part. 'count $variable' will print the number of elements in the array part."set var " also works only with the array part.The differences comes with handling subscription:'set var[key] value' or 'set var[key1 key2] value1 value2' should be expanded to handle string keys.$var[key] or $var[$key] or $var[key1 key2] should return values which were previously set.There should also be functions for working with dictionaries like getting list of keys for iteration or getting the number of elements in dictionary part.set var[a b c] d e fecho $var  #-><nothing>count $var #->0get --size var   #-> 3get --keys var   #-> a b c get --values var #-> d e fget --pairs var  #-> a d b e c fOther issuesOne should also update universal variables handling.Dictionary part of the variables could not be exported.Thats itAny ideas/thoughts/critics are appreciated."
+This pull request is meant for discussion. The implementation works, but I'm quite sure there is room for further improvement, esp. regarding m2e integration of the maven-plugin. Also, the maven-plugin currently generates the ResourceBundles together with the java-classes (phase: generate-sources), but maybe this should move into a generate-resources Added some tweaks suggested by @ansell"
+ Originally submitted to Google Code by habdank on 22 May 2011If I am starting test that contains application that may generate output from self tests. Consider please output XML like:<test_suite><test_case></test_case>Some results<test_case>Other results</test_case><test_case>Yet another results</test_case></test_suite>The keyword "Run And Return Rc And Output" may take that output and display.And than it would be good to have functionality that will nest that XML withinHTML report from the complete test. So internal test suites and test cases arevisible as robot's own."
+Twitter Bootstrap is now supported fully in Zepto master branch.
+Helo! I'm very happy user of your plugin. It worked like charm until today. I'm using bitnami version of redmine (1.4.4) on windows 2008 server and 1.2.0 version of your plugin. When invoking command rake redmine:plugins:redmine_ldap_sync:sync_users RAILS_ENV=production I get an error Mysql::Error: Duplicate entry '6-5' for key 1: INSERT INTO groups_users (group_id, user_id) VALUES (6, 5) So I explored table 'groups_users' with phpmyadmin and I can see that there is already one row with same values. Because I have no knowlege in sql I did backup the database and then I truncated table 'groups_users' and voila: sync_users went fine. But just for the first time. Second time (and ofcourse all the next) I get similar error Duplicate entry. Can anybody advise me how to get rid of this error?
+I updated to PR to use Robolectric 2.3. The workaround had to be modified a little because the crucial fields in RobolectricTestRunner are changed from static to instance scope. Also the projects had to be updated to Android 4.1  because the Robolectric 2.3 only supports Android 4.1, 4.2 and 4.3, and only 4.1 is in Maven Central.
+Yes. I am building menu items with cocoa and aura in mind. So far targeting cocoa primarily and keeping in mind that I will have to make it work for aura. I do believe for aura we may need to be able to get all of the current windows for setting the menu on each window. This would mean being able to get all the current exo shell bindings that have been created. We can do this on the breach side if its easier, but keeping in mind that multiple processes may be able to connect to a running service of exobrowser, this would lead to network segmentation if we managed this on breach side. (This could either be a desired effect or an undesired effect.) For now the simple case is 1 breach instance :: 1 exo browser instance, but there may be instances where mutiple breach instances are talking to 1 exo browser instance.
+Having watched the screencast about field collection http://wunderkraut.com/blog/screencast-field-collection/2013-02-02 I think this is the way into the future for me for Slideshows: Make a field collection for the images so you can add more fields to each item sort them in the same interface and stuff. Just awesome."
+You can use evaluators to do anything you can do using a standard custom list adapter. This is not documented, but you can get an idea by looking into the source. @instantimage is definitely on the list. It will come with features such as caching and lazy loading.
+I'll take it!
+I just tested with Firefox 30 and it appears to work fine. As @forfuns suggests please make sure it is actually loaded by the browser and see if you have any other module systems running in the browser (eg requirejs) which might cause Async to expose itself as a module instead."
+Closing, no merging
+This time it worked! But as I said in the other discussion, this is too specialized for the distribution.
+So how would it update to the new name? When he tries to join the server?
+I've pushed a fix and it seems to work by running the sample. Can you please retry with the latest version?
+I have noticed that after adding this plugin the "Right Side" drawer does not close all the way after opening it once to few the list. It closes partially. I am using Windows 8.1 and Chrome 41.0.2272.101 m. Example attached... "
+@sgdowney we are addressing the issue without having to resort to workaround like these"
+Note that you have to generate the xpi inside the addon/dist directory, now. I will start generating the xpi from the gulpfile next.
+Thanks Ehsan for having thought about jetpack test runner :) r+
+I don't know this codebase, so @chriswarren does this look good?"
+Hi, I've updated the dependencies to the last Angular
+Solved my problem: $ chmod go+r ~/.ssh/id_boot2docker 
+Build 18 outcome was FAILURE using a merge of 6702124Summary: Tests failed: 1 (1 new) passed: 688 ignored: 52 Build time: 0:00:21Build problems:Failed tests detectedFailed testsorg.jboss.forge.test.roaster.model.MethodSignatureTest.testMethodWithPrimitiveParameters: java.lang.IllegalArgumentException: Cannot import class without a package [int]    at org.jboss.forge.roaster.model.impl.AbstractJavaSource.addImport(AbstractJavaSource.java:171)    at org.jboss.forge.roaster.model.impl.MethodImpl.addParameter(MethodImpl.java:680)
+Actually pillows is not needed.
+Only tests are missing, will be done within this week.
+To see what Play's asset compilation is like
+Fixed by PR #12."
+Hi, with inveniomanage-command i'm getting this: (b2share)[root@test-eudatis invenio.base-instance]# inveniomanage database mysql-info version: 5.1.73 character_set_client: utf8 character_set_connection: utf8 character_set_database: utf8 character_set_results: utf8 character_set_server: latin1 character_set_system: utf8 collation_connection: utf8_general_ci collation_database: utf8_general_ci collation_server: latin1_swedish_ci
+Mozilla seems to have left it for a while, so pulling to me is the best for now
+Clang version = 3.5 GCC version = 4.8.2
+This also introduces a d3.touch method and changes the drag behavior to listen to the target element of the touchstart event rather than the window, avoiding a crash when a DOM element is removed while dragging. You can now temporarily remove a DOM element while dragging, and later add it back while still dragging, and it will be in the right place. I might consider leaving the d3.touch method private for now so that we can roll this out as a 3.4.x, and making d3_touch public in the 3.5 release.
+Fair enough.
+Will it continue to work after an update of the app? Updating sometimes brakes the shortcut..
+I was thinking of making it dependent of what the user chooses to do. i.e. 1) User clicks on the (if in wondow mode) window close gadget -> close scummvm User chooses to use SDL quit (ALT-X) or any other backend quit -> close scummvm User chooses to bring up the scummvm menu (F5)  Two possibilties here a) Quit or Exit -> close scummvm b) Return to Launcher -> go back to DOTT (I think that would be a good and logicalway because I - The user knows he's playing a game inside a game and shouldn't complain about :-) II - You don't want the user to start any other game and cause problems)  User chooses to quit the game with the internal scumm command (CTRL-Q?) -> close Maniac Mansion (and go back to DOTT)Not sure if any of that could be achieved in a clean way"
+Are you using StofDoctrineExtensionsBundle ? it seems like the user object is not in identity map of unit of work of doctrine. It would be easier if it could be reproduced. which version of symfony and doctrine orm are you using?
+See #2240"
+@anodynos I feel a little concerned that the alternative implementation does necessitate a views cache. Are we effectively saying to developers seeing Backbone for the first time that they must manually manage this problem with persistent view stores?. @jashkenas I've tested the above using the additional logging but the calls cited seem sporadic. I'm wondering if this is really the zombies issue at all but it's probably specific to our app as it uses filtering."
+I think auto-submitting to cause a full page refresh would be a pretty bad experience, so I'd probably prefer they had to trigger the submit manually.
+@dpobel I would better say no.  eZDebug::writeError() may log **RunTime** errors but is not really suitable for errors that is the direct result of bad programming and should fail hard like if a typo was made in a class or method name.
+That's fine for now. I may merge them if I get some time.
+This is a minor bug fix, should be 0.1.1.  ```python print "hello" ```  - list 1 - list 2  
+Do not add a newline between if() and  the following statement. Check framework code about it. @rawtaz Check Yii source code about newlines. There is no Symfony/Zend/other code style.
+Done. Renamed "timestamp" to "freeze-date".  I'm actually setting "build-date" to the actual day that the image is built because it can differ from the freezedate.
+Can we use something more descriptive than 1 and 0?
+Remove space after commas.
+I'd like to keep the YourKit stuff out of the oae module. You can deliver a custom setenv.sh.erb template via the setenv_template param to oae::app::server   If you add the YK java arguments to localconfig/templates/oae-setenv.sh.erb then the oae module w
+What a load of rubbish
+Yep, you are right, the problem is that we don't know if more headers have been added. Another option is to create a 'refresh' method and call it from outside every time a new header is created/removed. Makes sense for me.
+clean that please.
+Here's that bug I was talking about. Pipe character is a regexp special character. Needs to be escaped to match.
+Will fix -- I didn't read the "Contributing" file before contributing. :)
+I think I'd like to either do this, or remove the comment; if there's a need for the method to change, we'll feel it anyway.
+We could probably make this change in `master`, unless it was accidental?
+The @param type of $data is StdClass . This is not fixed . Let me know if its ok .
+I think we could probably use a stronger selector here; this will match any other link that happens to use the organisation name.
+Nah, "object" should be fine; all objects are of StdClass anyway. If PhpDocumentor complains, we'll change it.
+@jeffheifetz i vote we don't use a status flag at all. See my comment about editing the existing keepSource flag.
+country code instead of currency codes?
+I feel like an option passed in with the request would make more sense. If you want to enable it globally it could be an option to initialize as well. This should not be the default as it breaks backwards compatibility.
+I believe this expression would be easier to understand:  ```lambda stack: any('CreatePairedMinidumps' in signature for signature in stack)```  it reduces to one level of parens and drops the confusing `find` and `-1`   
+This could be DRYed up in a similar manner to the chart_col_title in the controller, since the dd always has the same value, and only the value of the dt changes.  So, something like  <code>&lt;dt><%= (stat.to_s.titleize == "Comments") ? ts("Comment Threa
+Should these functions be exported?
+Does this documentation explain anything?  Switch `#'` to `#` ?
+@pmjones Yes @phpdocumentor was complaining . I discusses with @mvreil and he mentioned to add `\StdClass` as param
+This is terrific!
+Classes that don't have a toJSONString method don't need a loadFromJSONObject method.  Back out this change.
+It is 1 at the moment, because I was restricting everything to R^2 to get something working.  I'm going back over the kmeansp and kmeansbi to extend them for R^M, which is what we have already done with the gomatrix library.  You are correct about the
+I think if we are going to spend the effort to update the deps, we should spend the effort to minimize there declarations as well.
+This probably should be "unneeded". However, I would suggest "unnecessary", as I think it's used more.
+Again, I don't think we want to confuse new users with this. If you want a literal, use 'key' instead - seasoned SpEL users will know they can use a SpEL literal here.
+s/~~are requiring/require/
+fixed.
+I like 'adapter' and we already have (with quick search) AmqpInboundChannelAdapter
+The padding should be set to (8,0,8,0) to ensure that it causes no regressions.
+It looks to me like this call to service_registered has the desired effect of removing the service from the riak_api_pb_server's dispatch state; however I don't think it's `states` are being treated as cleanly. I'm not sure if that matters, but I think it
+Do you want to try moving the unicode character to the end so it's the last thing before the newline?
+I agree about magic. :)
+Well, that is not wrapped in an SPCA.  A quick check of sublasses of AbstractPollingInboundChannelAdapterParser point to classes ending with MessageSource - the method is called 'parseSource' after all :-)  ```` protected BeanMetadataElement parseSource(E
+We may want to call requestLayout() when setting the shadow layer as well.
+Wow,  that seemed to trigger it.
+This IS a MessagSource, so yes RedisStoreMessageSource is the right name. The SPCA is the adapter, delegating to a source.  The AmqpInboundChannelAdapter is different. It's an active component (not polled) that extends MessageProducerSupport so it has the
+missing space here
+ditto
+ditto continue
+What happens when the user sets only one of shadow color or shadow offset?  Should we have some default values for these? If both are needed, we should only call setShadowLayer() when both are present.
+Similar to the comment above, what happens when you call setShadowLayer() when 0 for some of these fields?
+Please also pull 9f59a0b7fd0eaff72b80e9741337d596bb885a4c to remove the now redundant check
+If you're deregistering a range of codes, it calls set_env once per code, unlike during registration, where it updates the dict once per code, but calls set_env just once for the range.
+Good catch. This is probably spammy and race-prone.
+typo: thirdparty
+s/Uri/URI/g
+Usually, var statements with multiple lines are indented once more to the right (IMO better readability), but your call, that is an opinion, and a nitpick. :-)
+I agree with this concept, but I think we need a more descriptive fact name here.
+Instead of using 'h', perhaps we should use constants? Imho that would make the code more legible.
+AFAIK the goal is to keep vars out of quotes  $line . "\n"
+CS, line ending missing
+I should probably add measures to ShapePart if we want them to be useful. Right now it's very difficult to index into the measures array to find the values for a specific part.
+I think "estimatedSize" is better indeed...  "estimatedGainForLeftSafeLiteral"  is good too.
+This line does nothing, I used it to have a breakpoint for debugging. You can delete it.
+can we do this? ``` private static final GetKeyFunction GET_KEY_FUNCTION... private static final GroupTupleFunction GROUP_TUPLE_FUNCTION... ```
+Can't this just be elseif() ?
+use i18n "trans"
+Is this an error in imagebuf.h:  reres (const ImageBuf &spec)  Should it not use ImageSpec instead? I see the implementation only needs a spec.
+CS, spacing
+Still not sure about contents validation, since as a single function it turns out to be quite ugly :|
+$output already had a value assigned on line 309. Not sure if overwriting that is the way to go.  If correct I would suggest: if (!$head) {    $output = $tableText->render(); } else {   //  ... this code block;
+I think we should use of a sekizai tag here to provide the css resources so that the style is available in any cms page.
+CS, spacing between arguments
+If we're not using puppet, is this line necessary?
+sure 
+ideally this would go in a `beforeEach` since it's needed for every test
+Yes, I forgot to remove manage-orgs
+CS, spacing around comparator
+Not strictly necessary, but one of the box tests in Veewee checks to see if Puppet is installed. I had to flip a coin to decide whether to remove the Puppet stuff and leave that test failing or not. If you have a strong opinion either way, it can certainl
+It's too bad it's still version 1.8.7 in the CentOS 6 base repo ...
+Also, the intent was to leave these boxes and configs publicly available, and it seems the community standard is to have both Puppet and Chef available.
+\ No newline at end of file
+Paddy, could you please leave the old tests in there as well? That way we ensure there are no BC issues (or at least become aware were there any).
+A little indentation wouldn't hurt. Can't say much about the rest of this.  "if it works, it works for me ;)"
+So what do we do about that bug?
+yay!
+Is this github being stupid?
+Circles don't have vertices :)  But actually is this even used anywhere? It looks like `drawShape()` just calls `g.circle()`
+Actually the indentation is not possible here because I used some white spaces to indent the XSLT output. This is a general XLST file to convert a docBook structure in reStructuredText format. I used the XSLT syntax + the special template php:function() u
+Yes, that's true.
+There are just 4 points here, so the square isn't being closed. If you add `true` as the last element in the path, it will auto-close the shape (and make the starting/ending vertex look better than if you just repeated the first coordinate)  `v = [[x - si
+This is about the last method in the Symfony2 doc (3. Without using ACL) but I don't think it's a good idea to implement it
+Good catch. Done!
+Oh, no, not a good idea ;)
+I like it. :ok_hand:
+Kinda hacky, I know. :(
+Actually, you might have to just leave off the last `[x,y]` here and `v.push(true)` after you recenter below.
+I think prefixing the modules with "mvc-" and having the `Y.MVC` namespace is confusing. How about this for the module names:  * `todo` provides `Y.Todo` * `todo-list` provides `Y.TodoList` * `todo-view` provides `Y.TodoView` * `todo-app` provides `Y.Todo
+This could become an Attribute of the app (that's make it more YUI-like).
+I don't mind, I am okay with that.  While I am at it, I must warn you  though, I am currently making *huge* changes on the tree structure (see #946). I don't know how we should resolve our future conflicts :/ 
+I'm responsible for this.  Sorry.
+I believe we can actually change the `:url` to be `:url => 'https://papertrailapp.com/api/v1'` to cut down on the typing and not need to define the `@api_prefix`. It's one of the things I really like about faraday.
+You should just be able to pass the `group` hash directly in as the second argument to `@connection.post()` without needing to convert it to a string. Were you having problems with that?
+Might be useful to pass the `{asList: true}` option so you get a ModelList instance back from this.
+Limitation?  I would call that a show-stopper.
+Don't hard code these values. Use:    bb::device::DisplayManager displayManager;   bb::device::Display& display = displayManager.getDisplay(displayManager.primaryDisplayId());   QSize size = display.pixelSize();    dCapsObject->Set(String::NewSymbol("plat
+Fixed in source - sorry, the comment can be deleted.
+That is mainly because `getReference` is an ORM specific method
+Since we should ideally move to `Doctrine\Common` and eventually extend the features here with more specific/optimized logic, that's why I suggested to use `find`
+this is a bit hard to read.  a better pattern might be: ``` Locale locale = Locale.getDefault(); if(arrayBinaryContains(locale.getLanguage(), "ja", "ko", "zh") || arrayBinaryContains(locale.getCountry(), "BZ", "CA", "KE", "MN", "US"))      ... do stuff ``
+From what I can infer from the controller, the user (admin) is supposed to set this in a form, so attr_accessible should be fine for deprecated.
+How about "nonce range" vs "full work"?
+For clearInterval and clearTimeout functions, platforms are not mentioned.
+Average is generally abbreviated "Avg" ("Ave" is "Avenue")
+Style (commas should be followed by a space)
+This probably won't work. Did you test all those?
+Done
+Can you rename `urls_or_config_hashes` to something less verbose? I think `nodes` is fine, as it is `#add_node` that is finally concerned with what to do with the contents.
+Style
+You're making Capybara dependent on jQuery??? A *huge* no to this.
+It would be nice to have specs for these changes, and not just in the RSpec matchers!
+Replace L80-83 with        this.settingGroups.splice(         this.settingGroups.indexOf(this.defaultGroup), 1);
+Yeah, agreed. But where besides RSpec matcher specs?
+I've tried plone.batching in my dev environment but it breaks the "standard_view" template from plone.app.collection because it uses the oldstyle CMFPlone batch_macros ... so this has to be changed there too, before merging thisone. 
+Ah yes, totally right
+worth sending this to crew or techteam?
+Don't we need to drop this?
+See above.
+Even though I think we've come a long way from C89, I'll move the declaration to the top!  Also, good call on using `gettimeofday()`.
+ah, thanks!
+hmm, any chance that this will fail with an infinite loop?
+I actually meant a getter not a delegated method :)
+Ah, thanks
+I believe all the BitVector values are given names with the k prefix. For example, https://github.com/H-uru/libhsplasma/blob/master/core/PRP/Object/plObjInterface.cpp#L20
+If the pull request  for #195 gets given the go ahead, I'd be happy to convert this to be a new descriptor-style GSObject.  It looks very good, and great to have the new improved factors for HLR and FWHM.
+yes, a small point.    mostly concerned with having an approachable api.
+As has happened before, I have to confess to not feeling very qualified to comment on this Tree stuff, having not coded up anything similar in the past myself...
+Great that you harmonized these `pad_factor` params to the python-layer style.
+I think we still need this for some use cases (I know I had some) - or should it be an argument to __init__ ?
+Oh sorry, I see that it's moved above ...
+Do you think we need to have open and close strings other than the default ones?
+This was here because of our annoying plugin VoxelBorder. It blocks people otherwise.
+I really like how you have refactored this method!
+In my installation, I had to change this to `File.join(page.source_dir` instead of `page.dir`. This was for paginating blog/index.html; as-is it kept generating the `page2` folder in the root directory instead of in `blog/`, as `page.dir` just returned `/
+This type of if statement only needs to be on the base classes.  I would just put the code in this block at the top level and get rid of the test.  See `Cell` and `TextCell` for an example.  I know this is very weird.
+The notebook is currently broken in this branch.  Due to typo here: should be `add_button_group`.
+Am I being totally dense, or is this a square region?  (If so, I was a little confused by the mention of R at line 390)
+Ah, I see, later you also build a lookup table for the x values, hence it becomes "analytic" in the SBProfile sense.
+Right.  "Analytic" in the SBProfile sense just means that it can directly return the value without using the full 2-d fft.  So a lookup table counts.
+those things are moved over  RESOLVED
+Good point.  This function isn't that much of a tall pole (using the lookup table is the more common code path), but that's a good change to make nonetheless.  I'll do that.
+It is square.  Seems like the better thing to do, since this isn't a radial profile, so the square region is I think the more relevant thing to do.  But you're right that the debugging statement (which I probably just copied from another profile's corresp
+I'm not sure that `group="optional"` is going to work here.  We need to set one size for each component.  Don't we need to tell the config framework that somehow?  So isn't "optional" saying the wrong thing?
+What exactly is being tested wrt self.axes?  Being None?  Being of length greater than zero.  I know PEP8 encourages this sort of semantics, but it is a pain in the butt to me to understand the intention.
+On my box - I already had Git in the PATH for my user - might have been set up by either Chocolatey or msysgit. I'm pretty sure this should be kosher.
+PS: VoxelBorder DOES allow TeleportCause.ENDER_PEARL  and internally disables the use of EnderPearl for teleportation
+I was just following the Riak way, but yeah I'm not the biggest fan of it either.   I can remove it.
+The curly brace in our Scala code is usually at the end of the previous line. Maybe the code could be formatted better.  (I had to read the documentation of foldLeft to be sure...)
+unless config[:user].nil? || config[:password].nil?
+Instead of a try/catch here, why not disable the editing functions when the view model states that the selected document is not editing?   ie: Bind the IsEnabled property of the controls to SelectedDocument.IsEditing
+It needs to be one z-index higher than lockscreen-main-panel. Don't know how to give a relative z-index.
+I couldn't find a pattern, but it wasn't a matter of unloading apps with sticky dirs like kernel.  It can happen for any of the Riak dependency apps.
+You copied this pattern around 4 times. Any chance you could extract it into a method?
+we should cap it with strndup
+Ok. I thought include was a control (it's always called as a function, so where do we draw that line).
+I started not being a very big fan of RowVector and ColumnVector be different classes from Matrix.
+Needs platforms and since tags
+It's not. I just thought that adding the strictness would be a nice thing to do.
+Needs since tag
+`include` is considered a "language construct" not a control structure. So I think we're ok there to treat it as a function, as that is how it is being used in this form.
+Switching to `switch` is good thing in this case. But this: ```objc case CPAfterCheckinActionNewUpdate: case CPAfterCheckinActionNewQuestion:     ... ``` and this ```objc (self.afterCheckinAction == CPAfterCheckinActionNewUpdate) ? CPPostTypeUpdate : CPPo
+Either way, i removed the unloading bit. Not having it doesn't seem to affect any of our existing tests.
+Oh ok, that makes sense.
+Should there be a "break" ?
+%{timestamp} means the 'timestamp' field (in @fields of the event), I think this may be better written as "%{@timestamp}" though perhaps as long as this special case is documented as such it's fine. 
+Make message consistent with what we typically do ``` Assert.notNull(factory, "'factory' must not be null"); ```
+No, replies work fine with lastId concept.
+LastId is used in ordering the feed (addPostsFromArray: postsArray: in CPVenueFeed). 
+I understand that they work fine, was suggesting that both be the same for consistency. Guess we can't take lastID out of api call anyways since web uses that now.
+Could I kindly ask you to edit the document as you see fit. Unfortunately, I do not understand your suggestions for improvement. I think you only have to edit a couple lines. Thank you very for much for your assistance. ;-) Jonathan On Aug 9, 2012 7:3
+You don't have to change it, but in C/C++/ObjC is good practice to use this: `if (0 == self.selectedIndex) ...`. It will prevent this kind of bugs `if (self.selectedIndex = 0) ...`. It will save you a lot of time debugging. ;)
+Don't ignore inline nodes -- iterate over them, just like in getScanNodeList_recurse . (Don't forget to remove the comment)
+it might be a good idea to also unregister the signal handler just before db_close() is called later in main()
+This will have a global effect on the tests and will need to be undone at the end of execution. Perhaps:   ``` try:     mpl.rc_file(fname)     assert mpl.rcParams['lines.linewidth'] == 33 finally:     linewidth = mpl.rcParams['lines.linewidth'] ```
+I think it would be better to rename this file to something like ```test_rcparams.rc```.  Additionally, it might be worth mentioning inside the file that this is only used in the ```test_rcparams.py``` tests.
+This file needs to be added to ```matplotlib/__init__.py``` for automatic test pickup (see http://matplotlib.sourceforge.net/devel/coding_guide.html#creating-a-new-module-in-matplotlib-tests)
+This line is fine, but I don't believe the ```abspath``` is necessary. Normally:   ``` os.path.join(os.path.dirname(__file__), 'mpl.rc') ``` Would suffice.
+Are multiple plots with the same range supported here too?
+Put an empty line under all your header lines.
+No. I am not able to differentiate between tuple of expressions and tuple of ranges as both are of length 3.
+I think `...` should be replaced with `**kwargs`.
+What exactly is this doing here?  Leftover debugging code?
+At first I wanted to do regexp as key, mode as value but it is not possible.  if we want someday, multiple regexp for one mode (who knows ?)  the only way I saw was list of regexp.  
+I understand why you're using the MoveEventSucks class. In fact, I switched instaPort to use it as well. I switched TeleportCause.ENDER_PEARL for TeleportCause.PLUGIN because it seemed a better fit, that's all.
+It is usefull for raw cell, where you can start on `diff --git`. End, I'm not sure.  
+I see your point and tend to agree. Names are but sound and smoke. I'll change it!
+Again, should be in a separate pull-request.
+1.1.13
+@fabpot So the message keys are fine? The way @vicb described it was exactly the idea.
+See #892.
+Thrift uses $GLOBALS to store the path to the thrift folder
+I tend to use `foo.must_be :blank?` for stuff like this. MiniTest::Spec will take any symbol with a `?` at the end and call that method on it and use the symbol for pretty error messages. So good things like `:valid?`, `:present?`, etc are all possible.
+Yes.  Good catch.  I'll add that documentation.
+There's a double space here :P

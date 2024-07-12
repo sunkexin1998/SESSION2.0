@@ -1,0 +1,6 @@
+#本文件用来存储存在固定搭配的情绪词，在以下固定搭配中情绪词不表达它原本的情绪，而表达中性
+in spite of
+in favor of
+get rid of
+kind of
+kinds of
